@@ -1,0 +1,153 @@
+/* Custom Styles */
+body {
+  font:500 14px/1.428571429 "microsoft yahei","simsun";
+}
+.table {
+  margin-bottom:0;
+}
+.cms-close {
+  float: right;
+  padding: 12px;
+  margin-top: -2px;
+  cursor: pointer;
+}
+.cms-close:hover {
+  opacity: .7;
+  filter: alpha(opacity=70);
+}
+.note-success .cms-close {
+  background: #3cc051 url(../img/icon-color-close.png) center no-repeat !important;
+}
+.note-danger .cms-close {
+  background: #ed4e2a url(../img/icon-color-close.png) center no-repeat !important;
+}
+.note-info .cms-close {
+  background: #57b5e3 url(../img/icon-color-close.png) center no-repeat !important;
+}
+.note-warning .cms-close {
+  background: #fcb322 url(../img/icon-color-close.png) center no-repeat !important;
+}
+.nav > li > a {
+  display: inline;
+}
+.header .navbar-nav {
+  margin-right: 50px;
+}
+@media (max-width: 991px){
+  .header .navbar-nav {
+    margin: 0;
+  }
+}
+.header .navbar-nav > li.dropdown {
+  color: #fff;
+  font-size: 12px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #ccc;
+}
+.navbar-nav > li > a {
+  margin: 0 6px;
+}
+.header .navbar-nav > li.dropdown, 
+.header .navbar-nav > li.dropdown > a {
+  padding: 0; line-height: 42px;
+}
+.header .navbar-nav > li.dropdown:last-child {
+  padding: 0;
+}
+.navbar-nav li.dropdown strong {
+  margin-right: 6px;
+}
+.page-sidebar-menu > li > a i {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.page-sidebar-menu > li > ul.sub-menu > li > a {
+  padding: 6px 0;
+}
+.page-sidebar .sidebar-toggler {
+  margin: 10px 0 10px 180px;
+}
+.page-sidebar-closed .ind-side-date {
+  display:none;
+}
+.ind-side-date {
+  float: left;
+  margin: 5px 0 0 15px;
+}
+.ind-side-date p {
+  color: #999;
+  display: inline;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+@media (min-width: 992px){
+  .page-content {
+    padding: 20px;
+  }
+}
+@media (max-width: 767px){
+  .page-content {
+    padding: 10px  !important;
+  }
+}
+.page-content .page-breadcrumb.breadcrumb {
+  margin:0 0 20px 0;
+}
+
+
+
+.portlet > .portlet-title > .caption {
+  font-size: 16px;
+}
+.portlet > .portlet-title > .caption > i {
+  margin-top: 2px;
+  font-size: 14px;
+}
+.portlet > .portlet-title > .tools, .portlet > .portlet-title > .actions {
+  margin-top: 4px;
+}
+.table > tbody > tr > td > a.alink-red {
+  color: #f00;
+  display: block;
+  font-weight: bold;
+}
+
+
+.tasks-widget .cms-info-list > li {
+  padding: 10px 0;
+}
+.tasks-widget .cms-info-list li > i {
+  color: #999;
+  float: left;
+  margin-top: 4px;
+}
+.tasks-widget .cms-info-list li > .task-title .date {
+  color: #999;
+  font-size: 12px;
+  margin-right:5px;
+}
+.tasks-widget .cms-info-list li > .task-title a:hover {
+  color: #f00;
+}
+
+
+.theme-panel {
+  margin:0 10px 0 0;
+}
+.theme-panel > .toggler {
+  padding: 17px;
+}
+.theme-panel > .toggler-close {
+  padding: 17px;
+}
+.theme-panel > .theme-options {
+  right: 34px;
+}
+
+
+
+.footer-inner a {
+  color:#999;
+}
